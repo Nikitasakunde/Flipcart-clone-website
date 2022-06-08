@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+:root {
+    --main-bg-color:#2455f4;
+  }
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+  
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:75px;
+    padding: 0 25px;
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center ;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+  
+}
+nav ul li a:hover{
+    color: white;
+  font-weight:bold;
+}
+/* div{
+    display: block;
+} */
+.search{
+    display: flex;
+align-items: center;
+}
+.search input{
+    width: 30vw;
+height: 30px;
+ border-radius: 5px;
+ margin: 0 16px 0 56px;
+ padding: 0 12px;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 12px auto;
+    overflow:hidden;
+}
+.card{
+     max-width: 80vw;
+    margin: 12px auto;
+    font-family: 'Lato', sans-serif;
+}
+.cards{
+    display: flex;
+    overflow: scroll;
+}
+.card-item{
+    display: inline flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.card h2{
+    font-family: 'Akronim', cursive;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+    
